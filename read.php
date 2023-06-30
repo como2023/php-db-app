@@ -1,7 +1,8 @@
 <?PHP
-$dsn = 'mysql:dbname=heroku_a2209e86e9cc0a2;host=heroku_a2209e86e9cc0a2;charset=utf8mb4';
-$user = 'be12ff89234165';
-$password = '920c2824';
+$dsn = 'mysql:dbname=heroku_08ebfa122952bea;host=us-cdbr-east-06.cleardb.net;charset=utf8mb4';
+$user = 'b9bc9ac21f94d4';
+$password = '212634c1';
+
 
 try{
   $pdo = new PDO($dsn, $user, $password);
